@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Bootstrap 3</title>
+
+    <!--bootstrap css-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!---main css---->
+    <link rel="stylesheet" href="css/style.css">
+    <!----google font---->
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <!----font awesome---->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css">
+
+</head>
+
+<body>
+
+    <header id="home" class="header">
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top shadow custom-navbar">
+            <div class="container container-fluid">
+                <div class="navbar-header">
+                    <a class="navbar-brand float-end" href="#">
+                        <img src="img/logo.svg" alt="" class="img-responsive custom-logo">
+                        <span class="custom-highlight">NIKE MAX</span>
+                    </a>
+                    <button class="navbar-toggler float-end" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="nav navbar-nav ms-auto custom-ul">
+                        <li class="nav-item custom-li">
+                            <a class="nav-link" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item custom-li">
+                            <a class="nav-link" href="#services">Serviços</a>
+                        </li>
+                        <li class="nav-item custom-li">
+                            <a class="nav-link" href="#products">Produtos</a>
+                        </li>
+                        <li class="nav-item custom-li">
+                            <a class="nav-link" href="#contact">Contato</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <section id="cover" class="container main">
+
+            <div class="row g-2 justify-content-around">
+                <div class="col-md-6 d-flex justify-content-center align-items-center order-lg-2">
+                    <div class="p-3">
+                        <img src="img/hero.png" alt="" class="mx-auto d-block w-100 img-fluid">
+                    </div>
+                </div>
+
+
+                <div class="col-md-6 d-flex justify-content-center align-items-center order-lg-2">
+                    <div class="p-3">
+                        <h1 class="custom-highlight">NIKE MAX</h1>
+                        <h1>Nunca Pare de Investir</h1>
+                        <p>Com a nova linha NIKE Jordans's, você irá superar seus limites, alcançando um novo patamar</p>
+                        <button class="btn btn-primary rounded-3 custom-btn" type="button">
+                            <i class="fas fa-shopping-cart"></i>
+                            Comprar Agora
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </header>
+    <main class="container">
+        <section id="services" class="mt-5">
+            <div class="row g-2-justify-content-around services-content">
+                <div class="col-md-6 d-flex justify-content-center align-items-center order-1">
+                    <div class="col">
+                        <div class="card p-3 m-3 custom-services-card" style="max-width: 540px;">
+                            <div class="row g-0 service-box">
+                                <div class="col-md-4 gy-3">
+                                    <img src="img/image 12.png" alt=""
+                                        class="mx-auto d-block custom-img-width service-img">
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body custom-text">
+                                        <h5 class="card-tittle">Encontre o calçado Perfeito</h5>
+                                        <p class="card-text">Na loja é possível encontrar uma variedade de calçados para cada situação.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card p-3 m-3 custom-services-card" style="max-width: 540px;">
+                            <div class="row g-0 service-box">
+                                <div class="col-md-4 gy-3">
+                                    <img src="img/image 13.png" alt=""
+                                        class="mx-auto d-block custom-img-width service-img">
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body custom-text">
+                                        <h5 class="card-tittle">Troca Gratuita</h5>
+                                        <p class="card-text">Aqui você efetua a troca gratuita do calçado caso ele não sirva.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card p-3 m-3 custom-services-card" style="max-width: 540px;">
+                            <div class="row g-0 service-box">
+                                <div class="col-md-4 gy-3">
+                                    <img src="img/image 14.png" alt=""
+                                        class="mx-auto d-block custom-img-width service-img">
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body custom-text">
+                                        <h5 class="card-tittle">Contate o Vendedor</h5>
+                                        <p class="card-text">Durante a compra é possível tirar dúvidas com o vendedor, para comprar o seu tênis preferido sem dúvidas
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col order-lg-2">
+                    <img src="img/XMLID 2.png" alt="" class="mx-auto d-block w-100">
+                </div>
+            </div>
+        </section>
+
+        <section id="products" class="mt-5">
+            <h2>Tênis Casuais</h2>
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col">
+                    <div class="card h-100 shadow custom-card">
+                        <img src="img/image 5.png" alt="" class="card-img-top w-100 custom-bg">
+                        <div class="card-body">
+                            <h2 class="card-tittle">Linha NIKE</h2>
+                            <p class="card-text">Amortecida e confortável, como toda corrida deve ser. O Nike React Miler 3 proporciona uma passada suave e macia à medida que seus pés tocam o chão.</p>
+                        </div>
+                        <div class="card-footer custom-footer">
+                            <div class="float-start">
+                                <h4 class="custom-highlight">R$ 529,90</h4>
+                            </div>
+                            <div class="float-end">
+                                <button class="btn btn-primary rounded-3 custom-btn"><i
+                                        class="fas fa-shopping-cart"></i>Comprar Agora</button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 shadow custom-card">
+                        <img src="img/Daco_1703273 1.png" alt="" class="card-img-top w-100 custom-bg">
+                        <div class="card-body">
+                            <h2 class="card-tittle">Corrida</h2>
+                            <p class="card-text">Um brinde aos novos começos entre você e as calçadas. Amarre os cadarços 100% reciclados e defina o ritmo ao começar sua corrida com a sensação de maciez do Nike Revolution 6 Next Nature.</p>
+                        </div>
+                        <div class="card-footer custom-footer">
+                            <div class="float-start">
+                                <h4 class="custom-highlight">R$ 639,99</h4>
+                            </div>
+                            <div class="float-end">
+                                <button class="btn btn-primary rounded-3 custom-btn"><i
+                                        class="fas fa-shopping-cart"></i>Comprar Agora</button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 shadow custom-card">
+                        <img src="img/pngegg 1.png" alt="" class="card-img-top w-100 custom-bg">
+                        <div class="card-body">
+                            <h2 class="card-tittle">Tênis de caminhada</h2>
+                            <p class="card-text">O Nike Legend Essential 2 vem equipado com um calcanhar reto e estável, flexibilidade embaixo da região dos dedos e suporte lateral.</p>
+                        </div>
+                        <div class="card-footer custom-footer">
+                            <div class="float-start">
+                                <h4 class="custom-highlight">R$ 499,00</h4>
+                            </div>
+                            <div class="float-end">
+                                <button class="btn btn-primary rounded-3 custom-btn"><i
+                                        class="fas fa-shopping-cart"></i>Comprar Agora</button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <h2 style="padding-top: 5%;">Sapatos Formais</h2>
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col">
+                    <div class="card h-100 shadow custom-card">
+                        <img src="img/Mask Group.png" alt="" class="card-img-top w-100 custom-bg">
+                        <div class="card-body">
+                            <h2 class="card-tittle">Sapatos de Trabalho </h2>
+                            <p class="card-text">Confortável e cheio de estilo, o Sapato Social Pegada Microfibra é perfeito para acompanhar sua rotina.</p>
+                        </div>
+                        <div class="card-footer custom-footer">
+                            <div class="float-start">
+                                <h4 class="custom-highlight">R$ 229,90</h4>
+                            </div>
+                            <div class="float-end">
+                                <button class="btn btn-primary rounded-3 custom-btn"><i
+                                        class="fas fa-shopping-cart"></i>Comprar Agora</button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 shadow custom-card">
+                        <img src="img/Rectangle 38.png" alt="" class="card-img-top w-100 custom-bg">
+                        <div class="card-body">
+                            <h2 class="card-tittle">Casamento</h2>
+                            <p class="card-text">Confeccionado em couro, tem solado de borracha, palmilha macia, cadarço ajustável.</p>
+                        </div>
+                        <div class="card-footer custom-footer">
+                            <div class="float-start">
+                                <h4 class="custom-highlight">R$ 439,99</h4>
+                            </div>
+                            <div class="float-end">
+                                <button class="btn btn-primary rounded-3 custom-btn"><i
+                                        class="fas fa-shopping-cart"></i>Comprar Agora</button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 shadow custom-card">
+                        <img src="img/Rectangle 39.png" alt="" class="card-img-top w-100 custom-bg">
+                        <div class="card-body">
+                            <h2 class="card-tittle">Graduação</h2>
+                            <p class="card-text">exibe acabamento em verniz em design moderno. Combine com produções casuais ou formais.</p>
+                        </div>
+                        <div class="card-footer custom-footer">
+                            <div class="float-start">
+                                <h4 class="custom-highlight">R$ 199,00</h4>
+                            </div>
+                            <div class="float-end">
+                                <button class="btn btn-primary rounded-3 custom-btn"><i
+                                        class="fas fa-shopping-cart"></i>Comprar Agora</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="mt-5 mb-5">
+            <div class="row d-flex justify-content-center align-items-center">
+                <div class="col-md-12">
+                    <div class="card custom-card">
+                        <div class="text-center">
+                            <h4 class="d-block mt-3 text-uppercase">
+                                Inscreva-se para novidades
+                            </h4>
+                            <div class="m-5">
+                                <div class="input-group mt-4 mb-3">
+                                    <input type="text" placeholder="Insira seu Email" class="form-control">
+                                    <button type="button" class="btn btn-primary border-rad custom-btn"
+                                        id="button-addon2">Inscrever-se</button>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer id="footer" class="bg-light text-center text-lg-start mt-5">
+        <div class="container p-4">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                    <h5 class="text-uppercase">
+                        Destaque
+                    </h5>
+                    <ul class="list-unstyled mb-0">
+                        <li>
+                            <a href="" class="text-dark">Guia de Presente para Feriado</a>
+                        </li>
+                        <li>
+                            <a href="" class="text-dark">Air Force</a>
+                        </li>
+                        <li>
+                            <a href="" class="text-dark">Jordan's</a>
+                        </li>
+                        <li>
+                            <a href="" class="text-dark">Sapatos Formais</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                    <h5 class="text-uppercase">
+                        Tênis
+                    </h5>
+                    <ul class="list-unstyled mb-0">
+                        <li>
+                            <a href="" class="text-dark">Todos os Tênis</a>
+                        </li>
+                        <li>
+                            <a href="" class="text-dark">Corrida</a>
+                        </li>
+                        <li>
+                            <a href="" class="text-dark">Jordan's</a>
+                        </li>
+                        <li>
+                            <a href="" class="text-dark">Tênis de Basquete</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                    <h5 class="text-uppercase">
+                        Roupas
+                    </h5>
+                    <ul class="list-unstyled mb-0">
+                        <li>
+                            <a href="" class="text-dark">Todas as Roupas</a>
+                        </li>
+                        <li>
+                            <a href="" class="text-dark">Camisetas em destaque</a>
+                        </li>
+                        <li>
+                            <a href="" class="text-dark">Bermudas</a>
+                        </li>
+                        <li>
+                            <a href="" class="text-dark">Hoodies e Pullover's</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                    <h5 class="text-uppercase">
+                        Infantil
+                    </h5>
+                    <ul class="list-unstyled mb-0">
+                        <li>
+                            <a href="" class="text-dark">Tênis Criança e Adolescente</a>
+                        </li>
+                        <li>
+                            <a href="" class="text-dark">Sapatos Infantis</a>
+                        </li>
+                        <li>
+                            <a href="" class="text-dark">Tênis de Basquete Infantil</a>
+                        </li>
+                        <li>
+                            <a href="" class="text-dark">Tênis de corrida infantil</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="custom-footer-margin">
+            <div class="pt-3 container text-center">
+                <h6>&copy; <span class="custom-highlight">Feito por Tainy Souza</span></h6>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+    <!--bootstrap JS script -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- end script -->
+
+</body>
+
+</html>
